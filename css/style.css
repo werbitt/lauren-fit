@@ -1,0 +1,136 @@
+.container {
+    max-width: 800px;
+    font-size: 1.3em;
+}
+
+.logo {
+    padding: 30px;
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.pilates-barre-link {
+    min-width: 114px;
+}
+
+section {
+    padding-top: 5rem;
+    width: 100%;
+}
+
+h4 {
+    font-size:2.8rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    padding-right: 2rem;
+}
+
+.what-to-bring {
+    margin-top: 5rem;
+}
+
+section#classes {
+    padding-top: 0rem;
+}
+
+#contact {
+    padding-top: 0rem;
+}
+
+#contact p {
+    font-size: 2rem;
+}
+
+#contact a {
+    font-size: 2rem;
+}
+
+#classes p {
+    font-size: 1.5rem;
+}
+
+.private-categories {
+    margin: 0 auto;
+}
+
+.private-categories ul {
+    margin-bottom: 5rem;
+}
+
+.private-categories li {
+    font-size: 2rem;
+}
+
+.private-dance-list {
+    margin: 0 auto;
+    padding: 0 0 0 3rem;
+    min-width: 256px;
+    display:inline-block;
+}
+
+.private-fitness-list{
+    margin:0 auto;
+    padding:0 0 0 3rem;
+    min-width: 256px;
+    display:inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Larger than tablet
+@media (min-width: 750px) {
+  /* Navbar */
+.navbar{
+    border-top-width: 0; }
+.navbar,
+.navbar-spacer {
+    display: block;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
+.navbar-spacer {
+    display: none; }
+.navbar > .container {
+    width: 100%;
+    text-align: center;}
+.navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+.navbar-item {
+    position: relative;
+    /*float: left;*/
+    margin-bottom: 0; }
+.navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    /*margin: 0px 16px;          */
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+.navbar-link.active {
+    color: #33C3F0; }
+.has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+.has-docked-nav .navbar-spacer {
+    display: block; }
+/* Re-overiding the width 100% declaration to match size of % based container */
+.has-docked-nav .navbar > .container {
+    width: 80%; }
