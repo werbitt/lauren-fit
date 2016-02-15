@@ -27,6 +27,12 @@ h4 {
     margin-top: 5rem;
 }
 
+h5 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
 p {
     margin-bottom: 1.5rem;
 }
