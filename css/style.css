@@ -21,6 +21,11 @@ section {
     width: 100%;
 }
 
+.single-picture {
+    margin-top: 6rem;
+    max-width: 100%;
+}
+
 h4 {
     font-size:2.8rem;
     margin-bottom: 1.5rem;
